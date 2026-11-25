@@ -1,0 +1,15 @@
+{
+  "name": "agent-designer",
+  "owner": { "name": "Platform Technology, Inc." },
+  "description": "The Agent Designer — a live pane plus a guided walkthrough for building a governed Agentforce agent from plain words, grounded on your real org and gated before anything deploys. A thin client over your own gateway: no credentials, no org data, and no build/authoring logic ship here.",
+  "plugins": [
+    {
+      "name": "agent-designer",
+      "displayName": "Agent Designer",
+      "source": "./plugins/agent-designer",
+      "description": "A live terminal pane showing the governed build (intro -> describe -> ground -> propose -> map -> draft -> gate -> deploy) and a teaching walkthrough skill (/designer-demo). Calls your gateway via AGENT_DESIGNER_URL and grounds live on your org; nothing is hardcoded.",
+      "category": "salesforce",
+      "keywords": ["agentforce", "salesforce", "governed", "agent-builder", "thin-client", "pane"]
+    }
+  ]
+}

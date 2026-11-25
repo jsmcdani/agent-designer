@@ -1,0 +1,7 @@
+{
+  "name": "agent-designer",
+  "version": "0.1.0",
+  "description": "Live pane + teaching walkthrough for the governed Agent Designer: build a grounded, gated Agentforce agent from plain words.",
+  "author": { "name": "Platform Technology, Inc." },
+  "types": "./types/index.d.ts"
+}
