@@ -25,9 +25,10 @@ A single plugin, **`agent-designer`**:
 Replace `<owner>/<repo>` with wherever this is hosted.
 
 ## Configure
-Point it at your gateway; provide a login at runtime — **never hardcode credentials**:
+Point it at the gateway serving your org (your contact gives you the URL); provide a login at runtime —
+**never hardcode credentials**:
 ```text
-export AGENT_DESIGNER_URL="http://127.0.0.1:8794"   # or your deployed gateway's URL
+export AGENT_DESIGNER_URL="https://<the-gateway-serving-your-org>"
 ```
 Supply the login when prompted (or via `AGENT_DESIGNER_USER` / `AGENT_DESIGNER_PASS`). Prefer running the
 login yourself with `! …` so your password stays in your shell; only the returned token is captured.
